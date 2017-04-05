@@ -1,0 +1,27 @@
+[
+	{
+		"name": "Joe",
+		"grade": 7,
+		"gpa": 4
+	},
+	{
+		"name": "Millie",
+		"grade": 8,
+		"gpa": 3.75
+	},
+	{
+		"name": "Warren",
+		"grade": 8,
+		"gpa": 2.875
+	},
+	{
+		"name": "Garrett",
+		"grade": 8,
+		"gpa": 3
+	},
+	{
+		"name": "Theresa",
+		"grade": 7,
+		"gpa": 2.5
+	}
+]

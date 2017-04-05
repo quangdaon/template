@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Template Test</title>
+	</head>
+	<body>
+		<template id="test1">
+			<div class="{{ name/l }}">
+				{{ name }}
+			</div>
+		</template>
+		
+		<h2>Students</h2>
+		<table>
+			<thead>
+				<tr>
+					<td>Name</td>
+					<td>Grade Level</td>
+					<td>GPA</td>
+				</tr>
+			</thead>
+			<tbody>
+				<template id="test2">
+					<tr>
+						<td>{{ name }}</td>
+						<td>{{ grade }}</td>
+						<td>{{ gpa }}</td>
+					</tr>
+				</template>
+			</tbody>
+		</table>
+		
+		<div id="meep">
+			<p>Original Content in #meep</p>
+		</div>
+		
+		<script src="./js/template.js"></script>
+		<script src="./js/index.js"></script>
+	</body>
+</html>
